@@ -44,6 +44,11 @@ namespace extlib.Types
             return new UHexadecimal64(v.ToByte());
         }
 
+        public static implicit operator ulong(UHexadecimal64 v)
+        {
+            return v.ToULong();
+        }
+
         public static UHexadecimal64 operator +(UHexadecimal64 left, UHexadecimal64 right)
         {
             return new UHexadecimal64(left.ToULong() + right.ToULong());

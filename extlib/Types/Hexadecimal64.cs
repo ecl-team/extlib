@@ -56,6 +56,11 @@ namespace extlib.Types
             return new Hexadecimal64(v.ToByte());
         }
 
+        public static implicit operator long(Hexadecimal64 v)
+        {
+            return v.ToLong();
+        }
+
         public static Hexadecimal64 operator +(Hexadecimal64 left, Hexadecimal64 right)
         {
             return new Hexadecimal64(left.ToLong() + right.ToLong());

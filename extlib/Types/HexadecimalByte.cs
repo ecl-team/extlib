@@ -32,6 +32,35 @@ namespace extlib.Types
             return new HexadecimalByte(v);
         }
 
+        public static implicit operator ulong(HexadecimalByte v)
+        {
+            return v.ToByte();
+        }
+        public static implicit operator long(HexadecimalByte v)
+        {
+            return v.ToByte();
+        }
+        public static implicit operator uint(HexadecimalByte v)
+        {
+            return v.ToByte();
+        }
+        public static implicit operator int(HexadecimalByte v)
+        {
+            return v.ToByte();
+        }
+        public static implicit operator ushort(HexadecimalByte v)
+        {
+            return v.ToByte();
+        }
+        public static implicit operator short(HexadecimalByte v)
+        {
+            return v.ToByte();
+        }
+        public static implicit operator byte(HexadecimalByte v)
+        {
+            return v.ToByte();
+        }
+
         public static HexadecimalByte operator +(HexadecimalByte left, HexadecimalByte right)
         {
             return new HexadecimalByte((byte)(left.ToByte() + right.ToByte()));

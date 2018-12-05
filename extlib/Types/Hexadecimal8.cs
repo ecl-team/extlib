@@ -31,6 +31,23 @@ namespace extlib.Types
         {
             return new Hexadecimal8(v);
         }
+        
+        public static implicit operator long(Hexadecimal8 v)
+        {
+            return v.ToSByte();
+        }
+        public static implicit operator int(Hexadecimal8 v)
+        {
+            return v.ToSByte();
+        } 
+        public static implicit operator short(Hexadecimal8 v)
+        {
+            return v.ToSByte();
+        }
+        public static implicit operator sbyte(Hexadecimal8 v)
+        {
+            return v.ToSByte();
+        }
 
         public static Hexadecimal8 operator +(Hexadecimal8 left, Hexadecimal8 right)
         {

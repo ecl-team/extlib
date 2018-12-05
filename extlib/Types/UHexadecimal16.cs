@@ -36,6 +36,27 @@ namespace extlib.Types
             return new UHexadecimal16(v.ToByte());
         }
 
+        public static implicit operator ulong(UHexadecimal16 v)
+        {
+            return v.ToUShort();
+        } 
+        public static implicit operator long(UHexadecimal16 v)
+        {
+            return v.ToUShort();
+        }
+        public static implicit operator uint(UHexadecimal16 v)
+        {
+            return v.ToUShort();
+        }
+        public static implicit operator int(UHexadecimal16 v)
+        {
+            return v.ToUShort();
+        }
+        public static implicit operator ushort(UHexadecimal16 v)
+        {
+            return v.ToUShort();
+        }
+
         public static UHexadecimal16 operator +(UHexadecimal16 left, UHexadecimal16 right)
         {
             return new UHexadecimal16((ushort)(left.ToUShort() + right.ToUShort()));

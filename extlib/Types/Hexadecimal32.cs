@@ -48,6 +48,15 @@ namespace extlib.Types
             return new Hexadecimal32(v.ToByte());
         }
 
+        public static implicit operator long(Hexadecimal32 v)
+        {
+            return v.ToInt();
+        }
+        public static implicit operator int(Hexadecimal32 v)
+        {
+            return v.ToInt();
+        }
+
         public static Hexadecimal32 operator +(Hexadecimal32 left, Hexadecimal32 right)
         {
             return new Hexadecimal32(left.ToInt() + right.ToInt());

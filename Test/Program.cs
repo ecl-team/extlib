@@ -12,13 +12,8 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Hexadecimal8 a = 114;
-            Hexadecimal32 b = 0x274885;
-            Hexadecimal32 c = a + b;
-            int a = c;
-
-            Console.WriteLine(c);
-            Console.WriteLine(c.ToInt());
+            Hexadecimal32 a = 10;
+            int b = a;
             Console.ReadLine();
         }
     }

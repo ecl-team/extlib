@@ -40,6 +40,19 @@ namespace extlib.Types
             return new UHexadecimal32(v.ToByte());
         }
 
+        public static implicit operator ulong(UHexadecimal32 v)
+        {
+            return v.ToUInt();
+        }
+        public static implicit operator long(UHexadecimal32 v)
+        {
+            return v.ToUInt();
+        }
+        public static implicit operator uint(UHexadecimal32 v)
+        {
+            return v.ToUInt();
+        }
+
         public static UHexadecimal32 operator +(UHexadecimal32 left, UHexadecimal32 right)
         {
             return new UHexadecimal32(left.ToUInt() + right.ToUInt());

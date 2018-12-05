@@ -40,6 +40,19 @@ namespace extlib.Types
             return new Hexadecimal16(v.ToByte());
         }
 
+        public static implicit operator long(Hexadecimal16 v)
+        {
+            return v.ToShort();
+        }
+        public static implicit operator int(Hexadecimal16 v)
+        {
+            return v.ToShort();
+        }
+        public static implicit operator short(Hexadecimal16 v)
+        {
+            return v.ToShort();
+        }
+
         public static Hexadecimal16 operator +(Hexadecimal16 left, Hexadecimal16 right)
         {
             return new Hexadecimal16((short)(left.ToShort() + right.ToShort()));
