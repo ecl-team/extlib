@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "extlib", "extlib\extlib.csproj", "{34DCCE0B-73FF-456E-99F7-876C61FEA2CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{F4989C29-F051-44C3-B96D-7EB7CD66BF40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{34DCCE0B-73FF-456E-99F7-876C61FEA2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34DCCE0B-73FF-456E-99F7-876C61FEA2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34DCCE0B-73FF-456E-99F7-876C61FEA2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4989C29-F051-44C3-B96D-7EB7CD66BF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4989C29-F051-44C3-B96D-7EB7CD66BF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4989C29-F051-44C3-B96D-7EB7CD66BF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4989C29-F051-44C3-B96D-7EB7CD66BF40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
