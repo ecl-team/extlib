@@ -46,6 +46,7 @@
     <Compile Include="Extensions\RandomExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Types\MultiArray.cs" />
     <Compile Include="Types\UHexadecimal16.cs" />
     <Compile Include="Types\UHexadecimal32.cs" />
     <Compile Include="Types\UHexadecimal64.cs" />

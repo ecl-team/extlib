@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using extlib;
+using extlib.Extensions;
 using extlib.Types;
 
 namespace Test
@@ -12,8 +12,8 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Hexadecimal32 a = 10;
-            int b = a;
+            char? hey = (char)65;
+            Console.WriteLine(hey);
             Console.ReadLine();
         }
     }
