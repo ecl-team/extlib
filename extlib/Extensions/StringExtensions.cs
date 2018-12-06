@@ -55,7 +55,7 @@ namespace extlib.Extensions
             return a.ToArray();
         }
 
-        public static byte[] GetBytes(this string str)
+        public static byte[] ToByteArray(this string str)
         {
             return Encoding.ASCII.GetBytes(str);
         }

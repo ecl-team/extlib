@@ -64,5 +64,19 @@ namespace extlib.Extensions
             Array.Resize(ref array, size);
             return array;
         }
+
+        public static T[] CombineWith<T>(this T[] array, T[] array2)
+        {
+            T[] a = new T[array.Length + array2.Length];
+            for (int i = 0; i < array.Length; i++)
+            {
+                a[i] = array[i];
+            }
+            for (int i = 0; i < array2.Length; i++)
+            {
+                a[array2.Length + i] = array2[i];
+            }
+            return a;
+        }
     }
 }

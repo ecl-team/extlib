@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace extlib.Extensions
 {
-    public static class IntExtensions
+    public static class SByteExtensions
     {
-        public static Hexadecimal32 ToHexadecimal(this int integer)
+        public static Hexadecimal8 ToHexadecimal(this sbyte v)
         {
-            return integer;
+            return v;
         }
     }
 }
